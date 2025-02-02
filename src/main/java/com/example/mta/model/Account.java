@@ -1,8 +1,6 @@
 package com.example.mta.model;
 
 import java.math.BigDecimal;
-import java.util.concurrent.locks.Lock;
-import java.util.concurrent.locks.ReentrantLock;
 
 public class Account {
     private Long accountId;

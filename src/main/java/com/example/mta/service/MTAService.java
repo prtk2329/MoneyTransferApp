@@ -24,10 +24,6 @@ public class MTAService {
             throw new InvalidTransferException("Transfer within same account is not allowed");
         }
 
-        Account firstLock = fromAccount.getAccountId() > toAccount.getAccountId() ? fromAccount : toAccount;
-        Account secondLock = firstLock.equals(fromAccount) ? toAccount : fromAccount;
-
-
         if (fromAccount.getBalance().compareTo(BigDecimal.ZERO) < 0) {
             throw new InvalidTransferException("User account balance is negative");
         }

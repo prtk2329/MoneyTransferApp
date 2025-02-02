@@ -4,7 +4,6 @@ import com.example.mta.exception.AccountNotFoundException;
 import com.example.mta.exception.InvalidAmountException;
 import com.example.mta.exception.InvalidTransferException;
 import com.example.mta.model.Account;
-
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
